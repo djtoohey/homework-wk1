@@ -16,3 +16,6 @@ Modifications to CSS:
 optimised repeat code
 add comments
 ```
+
+link to website:
+https://djtoohey.github.io/homework-wk1/
