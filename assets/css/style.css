@@ -1,0 +1,163 @@
+/* Whole Web Page Default Styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Setting Background of Webpage to off white */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Setting font size for all <p> to 16px */
+p {
+    font-size: 16px;
+}
+
+/* HEADER */
+
+/* Setting basic header properities */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Setting <h1> properties within header class */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Setting the "seo" in Horiseon to off white */
+.seo {
+    color: #d9dcd6;
+}
+
+/* Setting the default properties for header section */
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* list properties */
+.header section ul {
+    list-style-type: none;
+}
+
+/* list items properties */
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* list text properties */
+.header section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* END HEADER */
+
+/* MAIN IMAGE PROPERTIES */
+.main-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* CONTENT */
+
+/* setting content default properties */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* setting content article default properties */
+.content article{
+    margin-bottom: 20px;
+    padding: 25px 50px 25px 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* setting h2 properties under content class <article> */
+.content article h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* creating two classes to easily float left and right with the same margin */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* setting content image heights */
+.content article img{
+    max-height: 200px;
+}
+/* END CONTENT */
+
+/* BENEFITS */ 
+/* setting default benefits properties */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* setting benefits article default properties  */
+.benefits article{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* setting h3 properties under benefits class <article> */
+.benefits article h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* setting benefits image properties for  */
+.benefits article img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* END BENEFITS */
+
+/* FOOTER */
+
+/* setting default footer properties */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* setting properties for h2 in footer class */
+.footer h2 {
+    font-size: 20px;
+}
+/* END FOOTER */
