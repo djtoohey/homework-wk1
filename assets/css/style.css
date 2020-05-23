@@ -18,7 +18,7 @@ p {
 /* HEADER */
 
 /* Setting basic header properities */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -26,17 +26,17 @@ p {
 }
 
 /* Setting <h1> properties within header class */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 /* Setting the "seo" in Horiseon to off white */
-.seo {
+#horiseon-text {
     color: #d9dcd6;
 }
 
 /* Setting the default properties for header section */
-.header section {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,18 +45,18 @@ p {
 }
 
 /* list properties */
-.header section ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* list items properties */
-.header section ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 /* list text properties */
-.header section ul li a {
+header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -116,7 +116,7 @@ p {
 
 /* BENEFITS */ 
 /* setting default benefits properties */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -128,19 +128,19 @@ p {
 }
 
 /* setting benefits article default properties  */
-.benefits article{
+aside article{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* setting h3 properties under benefits class <article> */
-.benefits article h3{
+aside article h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* setting benefits image properties for  */
-.benefits article img{
+aside article img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -150,14 +150,14 @@ p {
 /* FOOTER */
 
 /* setting default footer properties */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* setting properties for h2 in footer class */
-.footer h2 {
+/* setting properties for h2 in footer */
+footer h2 {
     font-size: 20px;
 }
 /* END FOOTER */
